@@ -28,6 +28,3 @@ Store.create(
   mens_apparel: false,
   womens_apparel: true
 )
-
-stores = Store.all
-stores.each { |store| puts store.name}
