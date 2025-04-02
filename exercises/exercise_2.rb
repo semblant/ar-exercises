@@ -9,5 +9,5 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 
-@store1.name = "West Downtown"
+@store1.name = "Burnaby Store"
 @store1.save

@@ -9,22 +9,22 @@ class Store < ActiveRecord::Base
 end
 
 Store.create(
-  name: "Downtown",
-  annual_revenue: 1000000,
+  name: "Burnaby",
+  annual_revenue: 300000,
   mens_apparel: true,
   womens_apparel: true
 )
 
 Store.create(
-  name: "Midtown",
-  annual_revenue: 750000,
+  name: "Richmond",
+  annual_revenue: 1260000,
   mens_apparel: false,
   womens_apparel: true
 )
 
 Store.create(
-  name: "Uptown",
-  annual_revenue: 45000,
+  name: "Gastown",
+  annual_revenue: 190000,
   mens_apparel: false,
   womens_apparel: true
 )
